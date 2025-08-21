@@ -1,12 +1,14 @@
-# React + Vite
+# Pokémon Memory Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Test your memory and focus with **Pokémon Memory Challenge**!
 
-Currently, two official plugins are available:
+In this game, you’ll see a grid filled with Pokémon pictures, all randomly placed. Your goal is simple:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Click on a Pokémon you haven’t clicked before** to earn **+1 point**.
+- After each click, all the Pokémon shuffle to new positions, keeping you on your toes.
 
-## Expanding the ESLint configuration
+But be careful — if you **click the same Pokémon twice**, it’s **Game Over**!  
+Your current score resets, and your best score is saved so you can try to beat it next time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How many Pokémon can you remember before making a mistake?  
+Sharpen your memory, aim for a high score, and catch ‘em all!
